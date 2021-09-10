@@ -36,11 +36,6 @@ const Songs = [
         singer: "Tonny Kakkar"
     },
     {
-        name: "oh Ho Ho Ho",
-        title: "oh Ho Ho Ho",
-        singer: "Sukhbir Randhawa"
-    },
-    {
         name: "Ranjha",
         title: "Ranjha",
         singer: "B Praak - Jasleen"
