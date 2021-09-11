@@ -84,16 +84,12 @@ SongsIndex=0;
 const nextSong=()=>{
     SongsIndex=(SongsIndex+1)%Songs.length;
     loadSong(Songs[SongsIndex]);
-    play.classList.replace('fa-pause', 'fa-play');
-    img.classList.remove('anime');
-    // playMusic();
+    playMusic();
 }
 const prevSong=()=>{
     SongsIndex=(SongsIndex-1+Songs.length)%Songs.length;
     loadSong(Songs[SongsIndex]);
-    play.classList.replace('fa-pause', 'fa-play');
-    img.classList.remove('anime');
-    // playMusic();
+    playMusic();
 }
 forward.addEventListener('click',nextSong);
 backward.addEventListener('click',prevSong);
